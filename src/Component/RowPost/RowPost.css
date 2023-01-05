@@ -1,0 +1,55 @@
+.row {
+  left: 20px;
+  color: white;
+}
+.posters {
+  display: flex;
+  padding: 33px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: pointer;
+}
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  max-height: 300px;
+  margin-right: 10px;
+  max-width: 290px;
+  width: 100%;
+  transition: transform 450ms;
+  border-radius: 5px;
+}
+.smallPoster {
+  margin-right: 10px;
+  max-width: 199px;
+  border-radius: 5px;
+
+  transition: transform 450ms;
+}
+.poster:hover,
+.smallPoster:hover {
+  transform: scale(1.2);
+}
+.poster-title {
+  font-size: initial;
+}
+
+.dis {
+  background-color: black/80 !important;
+  position: relative;
+}
+.pss {
+  position: absolute;
+  inline-size: 233px;
+  word-break: break-all;
+  font-size: small;
+  font-style: oblique;
+  color: rgb(255, 255, 255) !important;
+}
+.symbol {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
