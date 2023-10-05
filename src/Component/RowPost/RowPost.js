@@ -74,9 +74,9 @@ const sliderRight=()=>{
            
             </>
             ))}
-       <MdChevronLeft  onClick={sliderLeft} size={30} style={{left:'40px',top:'85px',backgroundColor:'white',opacity:0.2,borderRadius:'130px',color:'black',position:'absolute',cursor:'pointer',}}/>
+       <MdChevronLeft className="left"  onClick={sliderLeft} size={30} style={{left:'40px',top:'85px',backgroundColor:'white',opacity:0.2,borderRadius:'130px',color:'black',position:'absolute',cursor:'pointer',}}/>
 
-       <MdChevronRight  onClick={sliderRight} className="right" size={30} style={{backgroundColor:'white',opacity:0.2,borderRadius:'130px',color:'black',position:'absolute',cursor:'pointer',right:'0px',marginTop:'50px'}}  />
+       <MdChevronRight className="right" onClick={sliderRight} className="right" size={30} style={{backgroundColor:'white',opacity:0.2,borderRadius:'130px',color:'black',position:'absolute',cursor:'pointer',right:'0px',marginTop:'50px'}}  />
       </div>
        </div>
 
